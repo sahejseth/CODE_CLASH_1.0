@@ -3,6 +3,7 @@ import leaderBoardIcon from '../assets/icons/ic_leaderboard.svg'
 import feedIcon from '../assets/icons/ic_feed.svg'
 import profileIcon from '../assets/icons/ic_default_profile.svg'
 import tasksIcon from '../assets/icons/ic_task.svg'
+import ic_event from '../assets/icons/ic_event.svg'
 import { BottomNavigation, BottomNavigationAction, Paper } from '@mui/material'
 import { Link, useLocation } from 'react-router-dom'
 import { useUserStore } from '../store/user.store'
@@ -10,6 +11,11 @@ const BottomNavbar = () => {
     const { user } = useUserStore();
     const location = useLocation();
     const navbarConfig = [
+        {
+            title: 'events',
+            icon: ic_event,
+            route: '/events',
+        },
         {
             title: 'leaderboard',
             icon: leaderBoardIcon,
