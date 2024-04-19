@@ -8,7 +8,7 @@
 Youtube Video: [EcoEcho Demo Video](link)
 
 ## Installation and Usage
-1. Android App - To install the app, download the [APK File](https://github.com/OrneyVortex/CodeClash/blob/main/CodeClash/app-debug.apk) and install it on your Android device.
+1. Android App - To install the app, download the [APK File](https://github.com/OrneyVortex/CodeClash/blob/main/SustainTheGlobeApp/app-debug.apk) and install it on your Android device.
 2. Progressive Web App - [Visit Site](https://sustain-globe.netlify.app/)
 
 ## Problem Statement
